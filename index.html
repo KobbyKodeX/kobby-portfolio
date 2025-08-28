@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Primary Meta Tags for SEO -->
+    <title>Kobby | Frontend Web Developer</title>
+    <meta name="description" content="Kobby Emmanuel is a Frontend Web Developer crafting seamless and engaging web experiences with modern technologies like React, Angular, and more.">
+    <meta name="author" content="Kobby Emmanuel">
+
+
+    <!-- ===== Open Graph (social media preview) -->
+     <meta property ="og:title" content="Kobby Emmanuel |  Frontend Web Developer ">
+     <meta property="og:description" content="Crafting seamless and engaging web experiences with modern technologies.">
+     <meta property="og:image" content="https://placehold.co/1200x630/005040/e1e9cc?text=Kobby's+Portfolio">
+     <meta property="og:type" content="website">
+     <meta property="og:url" content="https://www.kodewithkobby.com">
+
+     <!-- ===== Twitter Card Tags -->
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:title" content="Kobby Emmanuel | Frontend Web Developer">
+      <meta name="twitter:description" content="Crafting seamless and engaging web experiences with modern technologies.">
+      <meta name="twitter:image" content="https://placehold.co/600x315/005040/e1e9cc?text=Kobby's+Portfolio">
+      <meta name="twitter:url" content="https://www.kodewithkobby.com">
+
+
+    <!--===== EXTERNAL LINKS =====-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!--===== CUSTOM CSS LINK-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Sitemap & Robots -->
+     <link rel="sitemap" href="/sitemap.xml" title="sitemap">
+     <meta name="robots" content="index, follow">
+
+    <!-- ===== Structured Data (Person) ===== -->
+    <!-- This block provides information about you, the creator. -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Kobby Emmanuel",
+        "url": "https://www.kodewithkobby.com",
+        "image": "https://placehold.co/400x400/005040/e1e9cc?text=Kobby",
+        "sameAs": [
+            "https://github.com/KobbyKodeX",
+            "https://www.linkedin.com/in/kobbyemmanuel",
+            "https://twitter.com/kobbyemmanuel",
+            "https://www.youtube.com/channel/your-channel-id"
+        ],
+        "jobTitle": "Frontend Web Developer",
+        "description": "I'm a passionate and highly skilled Frontend Web Developer with a strong focus on creating clean, efficient, and user-friendly web interfaces. My expertise lies in HTML, CSS, and JavaScript, with a strong command of modern frameworks like React and Angular. I thrive on turning complex ideas into intuitive, responsive, and visually appealing web applications.",
+        "knowAbout": ["HTML", "CSS", "JavaScript", "React", "Angular", "Vue.js", "Web Development"]
+    }
+    </script>
+    
+    <!-- ===== Structured Data (WebPage) ===== -->
+    <!-- This block provides context about the page itself. -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Kobby | Frontend Web Developer",
+      "url": "https://www.kodewithkobby.com",
+      "description": "Kobby Emmanuel is a Frontend Web Developer crafting seamless and engaging web experiences with modern technologies.",
+      "inLanguage": "en-US",
+      "mainEntity": {
+        "@type": "Person",
+        "name": "Kobby Emmanuel"
+      }
+    }
+    </script>
+
+</head>
+<body>
+    <header>
+
+        <!--===== NAVIGATION =====-->
+        <nav class="navbar">
+            <div class="logo">KodeWith<span class="highlight">Kobby</span></div>
+
+            <ul class="nav-menu" id="nav-menu">
+               <a href="#home" style="--i:1">Home</a>
+               <a href="#about" style="--i:2">About</a>
+               <a href="#projects" style="--i:4">Projects</a>
+               <a href="#contact" style="--i:5">Contact</a>
+            </ul>
+
+            <div id="theme-toggle" class="toggle" aria-label="Toggle menu" onclick="toggleOff()">
+                <span class="icon"><i class="fas fa-toggle-on"></i></span>
+            </div>
+
+            <div class="menu-btn">
+                <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
+            </div>
+            <div class="nav-btn">
+                <a href="#contact">Let's Talk</a>
+            </div>
+            <!-- ========mobile navbar ==============-->
+         <div class="mobile-nav" id="mobileNav">
+            <ul>
+                <button class="close-btn" id="closeBtn"><i class="fas fa-close"></i></button>
+                <a href="#home" class="top"><i class="fas fa-home"></i>Home</a>
+                <a href="#about" class="top"><i class="fas fa-user"></i>About</a>
+                <a href="#projects" class="top"><i class="fas fa-folder"></i>Projects</a>
+                <a href="#contact" class="top"><i class="fas fa-envelope"></i>Contact</a>
+
+               <div class="sci-btn">
+                   <a href="https://github.com/kodewithkobby" target="_blank" rel="noopener noreferrer" aria-label="Github"><i class="fa-brands fa-github"></i></a>
+                   <a href="https://x.com/kodewithkobby" target="_blank" rel="noopener noreferrer" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+                   <a href="mailto: kodewithkobby@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                   <a href="https://www.instagram.con/kodewithkobby" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </ul>
+         </div>
+        </nav>
+    </header>
+    
+    <!--===== HERO SECTION =====-->
+    <section class="hero" id="home">
+        <div class="hero-container">
+        <div class="hero-group">
+            <div class="hero-img">
+                <div class="img-box">
+                    <img src="Assests/person1.jpg" alt="kobby.">
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-group">
+            <h1>KobbY.</h1>
+            <p>
+                I'm a <span>Frontend Web Developer</span>
+            </p>
+            <p class="hero-item">I build frontend web designs; making them responsive, and user-friendly.</p>
+            <a>Need a responsive web design?</a>
+            <div class="hero-btn">
+                <button class="btn-item-1">Contact Me!</button>
+                <button class="btn-item-2">View Projects</button>
+            </div>
+        </div>
+        </div>
+        <div class="follow">
+            <h3>Follow Me</h3>
+            <div class="media-btn">
+                <a href="https://github.com/kodewithkobby" target="_blank" rel="noopener noreferrer" aria-label="Github"><i class="fa-brands fa-github"></i></a>
+                <a href="https://x.com/kodewithkobby" target="_blank" rel="noopener noreferrer" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="mailto: kodewithkobby@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.instagram.con/kodewithkobby" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!--==============ABOUT SECTION =============-->
+    <section class="about-container" id="about">
+        <div class="about-group">
+            <h1>About <span>Me</span></h1>
+            <p class="about-content">
+                I'm a passionate <span><strong>FRONTEND DEVELOPER</strong></span> who loves crafting clean, modern and user-friendly web-experiences. With a stong foundation in <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> and <strong>Tailwind</strong>. I specialize in turning ideas into reponsive, visually appealing websites that not only look great, but also work seamlessly across devices. 
+            </p>
+            <p class="about-content">
+                Beyond coding, I pay close attention to design details, usability, and overall user journey. I enjoy working with tools like figma to translate concepts into engaging interfaces,combining thoughtful UI/UX principles with efficient development. My goal is simple: <span>To create digital experiences that make an impact, solve problems, and leaves users with something memorable.</span>
+            </p>
+
+            <div class="about-item">
+                <div class="item-box">
+                    <div class="item-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="item-info">
+                        <h3>1+ Years</h3>
+                        <span>Experience</span>
+                    </div>
+                </div>
+
+                <div class="item-box">
+                    <div class="item-icon">
+                        <i class="fas fa-diagram-project"></i>
+                    </div>
+                    <div class="item-info">
+                        <h3>15+ projects</h3>
+                        <span>Completed</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="skill-group">
+            <h4>My <span>Skills</span></h4>
+
+            <div class="skill">
+                <p>HTML <span class="percent" data-target="95">0%</span></p>
+                <div class="bar"><div class="progress" data-target="95"></div></div>
+            </div>
+            <div class="skill">
+                <p>CSS <span class="percent" data-target="90">0%</span></p>
+                <div class="bar"><div class="progress" data-target="90"></div></div>
+            </div>
+            <div class="skill">
+                <p>Javascript <span class="percent" data-target="70">0%</span></p>
+                <div class="bar"><div class="progress" data-target="70"></div></div>
+            </div>
+            <div class="skill">
+                <p>Tailwind <span class="percent" data-target="50">0%</span></p>
+                <div class="bar"><div class="progress" data-target="50"></div></div>
+            </div>
+            <div class="skill">
+                <p>Graphic Design <span class="percent" data-target="88">0%</span></p>
+                <div class="bar"><div class="progress" data-target="88"></div></div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- ========= PROJECTS SECTION ==========-->
+    <section class="project-container" id="projects">
+        <div class="project-header">
+            <h2>Projects</h2>
+        </div>
+        <div class="project-wrapper">
+            <div class="project-card fade-in">
+                <img src="https://placehold.co/400x200/005040/e1e9cc?text=Project+1" alt="Project 1">
+                <div class="card-content">
+                    <h3>School Website</h3>
+                    <p>A full-featured e-commerce platform built with React and a custom backend.</p>
+                </div>
+                <div class="project-btn">
+                    <a href="#" class="p-btn">Demo</a>
+                    <a href="#" class="p-btn">Source Code</a>
+                </div>
+            </div>
+            <div class="project-card fade-in">
+                <img src="https://placehold.co/400x200/424242/fbf5ff?text=Project+2" alt="Project 2">
+                <div class="card-content">
+                    <h3>Weather App</h3>
+                    <p>A full-featured e-commerce platform built with React and a custom backend.</p>
+                </div>
+                <div class="project-btn">
+                    <a href="#" class="p-btn">Demo</a>
+                    <a href="#" class="p-btn">Source Code</a>
+                </div>
+            </div>
+            <div class="project-card fade-in">
+                <img src="https://placehold.co/400x200/e1e9cc/005040?text=Project+3" alt="Project 3">
+                <div class="card-content">
+                    <h3>E-commerce Website</h3>
+                    <p>A full-featured e-commerce platform built with React and a custom backend.</p>
+                </div>
+                <div class="project-btn">
+                    <a href="#" class="p-btn">Demo</a>
+                    <a href="#" class="p-btn">Source Code</a>
+                </div>
+            </div>
+        </div>
+        <div class="project-link">
+            <a href="#">View More Projects <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <!-- =========== CONTACT SECTION ============-->
+     <section class="contact-container" id="contact">
+        <h2>Get In Touch</h2>
+        <div class="contact-wrapper">
+            <div class="contact-group left">
+                <p class="contact-item">
+                    Have a question, project idea, or just want to connect? I'd love to hear from you. Reach me directly via email and I'll get back to you as soon as possible.
+                </p>
+                <div class="media-btn">
+                    <a href="https://github.com/kodewithkobby" target="_blank" rel="noopener noreferrer" aria-label="Github"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://x.com/kodewithkobby" target="_blank" rel="noopener noreferrer" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="mailto: kodewithkobby@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.instagram.con/kodewithkobby" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="contact-group">
+                <form action="https://formspree.io/f/xwpneaal" method="post">
+                    <div class="form-group">
+                        <input type="text" name="name" id="name" placeholder=" " required>
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" id="email" placeholder=" " required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="message" rows="4" placeholder=" " required></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <div class="form-btn">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+     </section>
+
+     <!-- ========== FOOTER ==========-->
+      <footer>
+        <div class="footer-group">
+            <h5>kodewithkobby</h5>
+            <p>&copy;kodewithkobby. All rights reserved</p>
+        </div>
+        <div class="footer-group">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms Of service</a>
+            <a href="#">SiteMap</a>
+        </div>
+
+      </footer>
+
+    <script src="script.js" defer></script>
+    <!---->
+
+    <!--const savedTheme = localStorage.getItem("theme");
+if (savedTheme) {
+   if (savedTheme === "dark") {
+        body.classList.add("darkmode");
+    }
+}
+ else {
+    // Fallback to OS preference
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        body.classList.add("darkmode");
+    }
+}
+
+// 2. Toggle button for dark/light mode
+document.getElementById("theme-toggle").addEventListener("click", () => {
+    body.classList.toggle("darkmode");
+
+    // Save theme to localStorage
+    if (body.classList.contains("darkmode")) {
+        localStorage.setItem("theme", "dark");
+    } else {
+        localStorage.setItem("theme", "light");
+    }
+});-->
+    
+</body>
+</html>
