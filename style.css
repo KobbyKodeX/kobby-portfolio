@@ -22,13 +22,14 @@
     --text-color: #fff;
 }
 
-
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: 'Poppins', 'segoe UI', sans-serif;
     line-height: 1.5;
     background-color: var(--bg-primary);
-    scroll-behavior: smooth;
 }
 
 section {
@@ -248,7 +249,7 @@ nav.scrolled {
     animation-delay: 2s;
 } 
 
-.hero-btn button {
+.hero-btn a {
     padding: 10px 24px;
     border: none;
     border-radius: 15px;
@@ -558,7 +559,7 @@ nav.scrolled {
     max-width: 300px;
     border-radius: 15px;
     box-shadow: 0 1px 2px var(--text-head);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform .3s ease, box-shadow 0.3s ease;
     overflow: hidden;
 }
 
@@ -608,7 +609,7 @@ nav.scrolled {
 
 
 .project-card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     box-shadow: 0 0 7px var(--text-head);
 }
 
@@ -619,13 +620,20 @@ nav.scrolled {
     margin: 20px 0;
 }
 
+
 .project-link a {
     color: var(--text-head);
     font-weight: bold;
     border: 1px solid var(--text-head);
     border-radius: 20px;
     padding: 10px;
+    transition: transform .2s ease
 }
+
+.project-link a:hover {
+    transform: translateY(-5px);
+}
+
 /* Intersection Observer Animation */
         .fade-in {
             opacity: 0;
